@@ -15,14 +15,12 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
 	
-	
 	mySnake.updateSnake();
 
 	if (mySnake.eat(myFood.myPos)) {
 		myFood.pickLocation();
         
 	}
-
 }
 
 //--------------------------------------------------------------
